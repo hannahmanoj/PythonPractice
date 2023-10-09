@@ -1,3 +1,8 @@
+#task
+#print(10 < 100)
+#print(100 != 100)
+#print(50 >= 50)
+
 #task1
 #age=int(input("enter your age:"))
 #if age < 18 or 21 or 31:
@@ -57,6 +62,11 @@ height=168
     #print("you are not too old ")
 
 #task10
+#name=input("enter your name: ")
+#if name=="hannah" or "michael" or "jude":
+    #print("your name is", name)
+#else:
+    #print("Name not entered")
 
 #task11
 #age=19
@@ -73,8 +83,27 @@ height=168
     #print(i, "to the power of", i, "=", i**i)
 
 #task14
-i=2
-numbers = [10, 20 , 30, 90, 200, 30, 22, 11]
-for i in numbers:
-    sum= i + numbers[i-1]
-    print(i+sum)
+#sum = 0
+#for x in [10, 20 , 30, 90, 200, 30, 22, 11]:
+      #sum = sum + x
+      #print(sum)
+
+#task15
+#sum = 0
+#for x in [10, 20 , 30, 90, 200, 30, 22, 11]:
+    #if x<100:
+        #sum = sum + x
+        #print(sum)
+    #else:
+        #break
+
+#task16
+#sum = 0
+#for x in [10, 20 , 30, 90, 200, 30, 22, 11]:
+    #if x<100:
+        #sum = sum + x
+        #print(sum)
+    #else:
+        #break
+#print('all nos processed')
+
