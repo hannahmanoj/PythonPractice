@@ -33,11 +33,26 @@
 
 #hypot(3,4)
 
-#task
+#task 5
+#to_seconds= lambda x,y : print((x*60*60)+(y*60))
+#to_seconds(3,4)
+#to_seconds(0,2)
+#to_seconds(2,0)
+#to_seconds(1,30)
 
+#task 6
+#to_seconds= lambda x,y=0 : print((x*60*60)+(y*60))
+#to_seconds(2)
+#to_seconds(1)
 
-
-
+#task 7
+#modules, files with a .py extention that can be imported inside another python program
+#
+#formal parameters are always variables that we pass when defining a function
+#actual parameters are values we pass when we call the function
+#default arguments include those that can be used if no value is given for that argument
+#keyword arguments are values that are passed into a function and are identified by specific variable names.
+#lambda expression is also used to add in variables
 
 
 
