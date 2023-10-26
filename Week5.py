@@ -1,4 +1,5 @@
 #task1
+
 # inputs a digit from user to be checked as odd or even
 #number = input("Enter a number: ")
 # int function converts the input to an integer
@@ -19,7 +20,9 @@
  #   print("That is an odd number")
   #  print("The number is not divisible by 10")
 
+
 #task2
+
 #import sys
 #count = len(sys.argv)
 #total = 0
@@ -27,10 +30,15 @@
  #    count -= 1
   #   total += float(sys.argv[count])
    #  avg = (total/float(sys.argv[count]))
+#if total==0:
+ #   print("no arguments were provided")
+#else:
+    #print("Total is", total)
+    #print("The average is", avg)
 
 
-#print("Total is", total)
-#print("The average is", avg)
+
+#task3
 
 #def average(values):
  #   """ Calculates the average of the given list. """
@@ -39,27 +47,37 @@
     #    total += float(n)
    #return total/len(values) # return calculated average
 # initialisation statement
-#rint(Welcome, utils module has been imported and initialised!")
+#print(Welcome, utils module has been imported and initialised!")
 
-from my_utils import average
+#task4
 
-print("average is", average([10,23,30]))
-print("Another average is", average([10.2, 8.8, 2.6]))
+#in new file utils_test.py
+#from my_utils import average
 
-from my_utils import *
+#print("average is", average([10,23,30]))
+#print("Another average is", average([10.2, 8.8, 2.6]))
 
-print("average is", average([10,23,30]))
-print("Another average is", average([10.2, 8.8, 2.6]))
+#task5
+# to directly import average without mentioning
 
-import math
-print(dir(math))
+#from my_utils import *
+
+#print("average is", average([10,23,30]))
+#print("Another average is", average([10.2, 8.8, 2.6]))
+
+#task6
+
+#import math
+#print(dir(math))
 #result ['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'cbrt', 'ceil', 'comb', 'copysign', 'cos', 'cosh', 'degrees', 'dist', 'e', 'erf', 'erfc', 'exp', 'exp2', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'isqrt', 'lcm', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'nextafter', 'perm', 'pi', 'pow', 'prod', 'radians', 'remainder', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau', 'trunc', 'ulp']
 
+#task7
 
 from math import *
-print(dir())
+#print(dir())
 #result ['__annotations__', '__builtins__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'cbrt', 'ceil', 'comb', 'copysign', 'cos', 'cosh', 'degrees', 'dist', 'e', 'erf', 'erfc', 'exp', 'exp2', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'isqrt', 'lcm', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'nextafter', 'perm', 'pi', 'pow', 'prod', 'radians', 'remainder', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau', 'trunc', 'ulp']
 
+#task8
 
-import sys
-print("The import search path for this program is", sys.path)
+#import sys
+#print("The import search path for this program is", sys.path)
